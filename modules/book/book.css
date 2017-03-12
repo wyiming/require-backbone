@@ -1,0 +1,91 @@
+.book_head {
+  height: 1.4375rem;
+  background: #f9fafd;
+  border-bottom: 2px solid #e0e0e0;
+}
+.book_head h1 {
+  font-size: 0.40625rem;
+  color: #333333;
+  height: 100%;
+  line-height: 1.4375rem;
+  text-align: center;
+}
+.book_bor {
+  width: 100%;
+  height: 0.15625rem;
+  background: #eeeef0;
+}
+.book_nav {
+  border-top: 1px solid #a2a2a2;
+  border-bottom: 1px solid #a4a4a4;
+}
+.book_nav .book_nav_up,
+.book_nav .book_nav_down {
+  height: 1.09375rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.book_nav .book_nav_up p,
+.book_nav .book_nav_down p {
+  font-size: 0.34375rem;
+}
+.book_nav .book_nav_up p a,
+.book_nav .book_nav_down p a {
+  color: #898989;
+}
+.book_nav_up {
+  border-bottom: 2px solid #d2d2d2;
+}
+.book_bor2 {
+  width: 100%;
+  height: 0.25rem;
+  background: #eeeef0;
+  border-bottom: 1px solid #a0a0a0;
+}
+.book_main1 {
+  height: 0.953125rem;
+  border-bottom: 2px solid #cccccc;
+}
+.book_main1 p {
+  font-size: 0.359375rem;
+  color: #909090;
+  background: url(../../img/8/8_03.jpg) no-repeat left center;
+  background-size: 0.15625rem 0.390625rem;
+  line-height: 0.953125rem;
+  margin-left: 0.265625rem;
+  text-indent: 0.296875rem;
+}
+.book_main2 figure {
+  height: 3.53125rem;
+  border-bottom: 2px solid #cccccc;
+  display: flex;
+  align-items: center;
+}
+.book_main2 figure img {
+  width: 2.8125rem;
+  height: 1.890625rem;
+  margin: 0 0.96875rem;
+}
+.book_main2 figure figcation p {
+  font-size: 0.375rem;
+  color: #777777;
+}
+.book_main2 figure figcation h3 {
+  font-size: 0.40625rem;
+  color: #f1361d;
+  position: relative;
+  padding-top: 0.96875rem;
+}
+.book_main2 figure figcation h3 span {
+  font-size: 0.234375rem;
+  color: #999999;
+  text-decoration: line-through;
+}
+.book_main2 figure figcation h3 img {
+  width: 1.078125rem;
+  height: 1.078125rem;
+  position: absolute;
+  top: 0.546875rem;
+  left: 2.5rem;
+}

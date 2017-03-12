@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=0.5,user-scalable=no"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>爱鲜蜂</title>
+  <link rel="stylesheet" href="common.css">
+	<link rel="stylesheet" href="modules/home/swiper-3.3.1.min.css">
+</head>
+<body>
+	<div class="container">
+		
+	</div>
+	<footer>
+		<dl>
+			<a href="#home">
+				<dt><img src="img/1/footer1.jpg"></dt>
+				<dd>首页</dd>
+			</a>
+		</dl>
+		<dl>
+			<a href="#supermarket">
+				<dt><img src="img/1/footer2.jpg"></dt>
+				<dd>闪送超市</dd>
+			</a>
+		</dl>
+		<dl>
+			<a href="#book">
+				<dt><img src="img/1/footer3.jpg"></dt>
+				<dd>新鲜预定</dd>
+			</a>
+		</dl>
+		<dl>
+			<a href="#shop">
+				<dt><img src="img/1/footer4.jpg"></dt>
+				<dd>购物车</dd>	
+			</a>
+			<span class="num">1</span>
+		</dl>
+		<dl>
+			<a href="#user">			
+				<dt><img src="img/1/per.jpg"></dt>
+				<dd>我的</dd>
+			</a>
+		</dl>
+	</footer>
+	 <script src="lib/require.js" data-main='main'></script>
+	 <script type="text/javascript" src="lib/jquery-v3.1.js"></script>
+	<script>
+		document.documentElement.style.fontSize=innerWidth/10+"px";
+		window.onresize=function(){
+			document.documentElement.style.fontSize=innerWidth/10+"px";
+		}
+		$('.num').html(localStorage.getItem('num'));
+		console.log($('.num').html());
+		if($('.num').html() != ''){
+			$('.num').css('display','inline-block')
+		}else{
+			$('.num').css('display','none')
+		}
+	</script>
+</body>
+</html>

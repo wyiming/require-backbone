@@ -1,0 +1,98 @@
+@charset "utf-8";
+.h(@h){
+    height:@h;   
+}
+.w(@w){
+    width:@w;
+}
+.b(@bg){
+    background: @bg;
+}
+.f(@fl){
+    float:@fl ;
+}
+.integral_head{
+	.h(1.4375rem);
+	.b(#f9fafd);
+	border-bottom: 2px solid #e0e0e0;
+	h1{
+		font-size: 0.40625rem;
+		color: #333333;
+		line-height: 1.4375rem;
+		text-align: center;
+		background:url(../../img/9/jifen6.jpg) no-repeat 0.40625rem center;
+		background-size: 0.359375rem 0.625rem;
+	}
+}
+.in_banner{
+	.w(100%);
+	.h(5.0rem);
+	border-bottom: 2px solid #e0e0e0;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	img{
+		.w(4.28125rem);
+		.h(4.28125rem);
+	}
+}
+.in_main1{
+	.w(100%);
+	.h(2.0625rem);
+	display:flex;
+	border-bottom: 20px solid #efefef;
+	dl{
+		.w(3.359375rem);
+		border-right: 2px solid #e0e0e0;
+		padding:0.3125rem 0 0 0.921875rem;
+		dt{
+			.w(1.46875rem);
+			.h(0.75rem);
+			display:flex;
+			justify-content:center;
+			img{
+				.w(0.75rem);
+				.h(0.75rem);
+			}
+		}
+		dd{
+			font-size: 0.328125rem;
+			color:#999999;
+			margin-top: 0.265625rem;
+		}
+	}
+	& dl:last-of-type{
+		border:none;
+	}
+}
+.in_main2,.in_main3{
+	display:flex;
+	border-bottom: 2px solid #e0e0e0;
+	dl{
+		.w(5.0rem);
+		.h(4.65625rem);
+		
+		dt{
+			.w(3.015625rem);
+			.h(1.65625rem);
+			// padding:1.0rem 0 0 0.71875rem;
+			margin: 0.71875rem auto;
+			img{
+				.w(3.015625rem);
+				.h(1.65625rem);
+			}
+		}
+		dd{
+			font-size: 0.34375rem;
+			color:#e64f1a;
+			margin-left: 0.3125rem;
+		}
+		& dd:first-of-type{
+			color:#333333;
+			margin:0.8125rem 0 0.234375rem 0.3125rem;
+		}
+	}
+	& dl:first-of-type{
+		border-right: 2px solid #e0e0e0;
+	}
+}

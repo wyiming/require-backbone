@@ -1,0 +1,76 @@
+@charset "utf-8";
+.search_body {
+  width: 100%;
+  height: 17.59375rem;
+  background: #efefef;
+}
+.pro_head {
+  height: 1.4375rem;
+  background: #f9fafd;
+  border-bottom: 2px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pro_head img {
+  width: 0.359375rem;
+  height: 0.609375rem;
+}
+.pro_head input {
+  width: 6.25rem;
+  height: 0.875rem;
+  background: #f9fafd;
+  outline: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  background: url(../../img/12/sou.jpg) no-repeat 0.203125rem center;
+  background-size: 0.390625rem 0.390625rem;
+  text-indent: 0.765625rem;
+}
+.pro_head h2 {
+  font-size: 0.40625rem;
+  color: #828282;
+}
+.search_hot,
+.search_history {
+  margin-left: 0.484375rem;
+}
+.search_hot p,
+.search_history p {
+  height: 0.65625rem;
+  font-size: 0.34375rem;
+  color: #9f9f9f;
+  line-height: 0.65625rem;
+  margin-top: 0.53125rem;
+}
+.search_hot .sort,
+.search_history .sort {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.search_hot .sort span,
+.search_history .sort span {
+  background: #ffffff;
+  display: inline-block;
+  padding: 0.34375rem 0.484375rem 0.359375rem 0.5rem;
+  border: 2px solid #e9e9e9;
+  border-radius: 0.625rem;
+  margin: 0.15625rem 0.3125rem 0.3125rem 0;
+}
+.search_hot .sort span a,
+.search_history .sort span a {
+  color: #000;
+}
+.clear_history {
+  font-size: 0.40625rem;
+  color: #ababab;
+  width: 6.71875rem;
+  height: 1.3125rem;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  line-height: 1.3125rem;
+  border-radius: 10px ;
+  margin: 0 auto;
+  margin-top: 0.78125rem;
+}

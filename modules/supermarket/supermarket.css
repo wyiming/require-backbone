@@ -1,0 +1,208 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: normal 0.1875rem "微软雅黑";
+  box-sizing: border-box;
+}
+ul ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+.clearfix:after {
+  content: ".";
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.header-2 {
+  width: 100%;
+  height: 1.4375rem;
+  background: #ffd600;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header-2 dl dt {
+  width: 0.59375rem;
+  height: 0.59375rem;
+}
+.header-2 dl dt img {
+  width: 0.59375rem;
+  height: 0.59375rem;
+}
+.header-2 dl dd {
+  color: #222222;
+  margin-top: 0.125rem;
+  font-size: 0.234375rem;
+  text-align: center;
+}
+.header-2 h1 {
+  width: 2.5rem;
+  height: 0.5rem;
+  color: #333333;
+  font-size: 0.40625rem;
+  background: url(../../img/1/shouye14.jpg) no-repeat 2.1875rem center;
+  background-size: 0.25rem 0.265625rem;
+  margin: 0 2.8125rem 0 3.75rem;
+}
+.main_s {
+  margin-top: 1.4375rem;
+  display: flex;
+}
+.mains_1_left {
+  float: left;
+  margin-right: 0.125rem;
+  height: 13.65625rem;
+  overflow: auto;
+}
+.mains_1_left ul {
+  width: 2.375rem;
+}
+.mains_1_left ul li {
+  width: 100%;
+  height: 1.28125rem;
+  line-height: 1.28125rem;
+  text-align: center;
+  background: #f8f8f8;
+  border-bottom: 2px solid #e0e0e0;
+  color: #6d6d6d;
+}
+.mains_1_left ul li:last-of-type {
+  border-bottom: none;
+}
+.mains_1_left ul li:nth-of-type(2) {
+  position: relative;
+}
+.mains_1_left ul li:nth-of-type(2) img {
+  width: 0.84375rem;
+  height: 0.875rem;
+  position: absolute;
+  left: 1.53125rem;
+}
+.mains_1_right {
+  width: 7.5rem;
+  float: right;
+}
+.mains_1_right .mains_1_right_up {
+  display: flex;
+  border-bottom: 2px solid #e0e0e0;
+}
+.mains_1_right .mains_1_right_up span {
+  display: flex;
+  display: inline-block;
+  width: 3.671875rem;
+  height: 1.28125rem;
+  line-height: 1.28125rem;
+  text-align: center;
+  color: #777777;
+}
+.mains_1_right .mains_1_right_up span img {
+  width: 0.3125rem;
+  height: 0.15625rem;
+  padding: 0.078125rem 0 0 0.078125rem;
+}
+.mains_1_right .mains_1_right_up span:first-of-type {
+  background: url(../../img/2/line2.jpg) no-repeat right center;
+  background-size: 0.03125rem 0.5625rem;
+}
+.mains_1_right .mains_1_right_down {
+  display: flex;
+  flex-wrap: wrap;
+  height: 13.34375rem;
+  overflow: auto;
+}
+.mains_1_right .mains_1_right_down figure {
+  width: 100%;
+  height: 2.8125rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+.mains_1_right .mains_1_right_down figure img {
+  width: 1.953125rem;
+  height: 1.953125rem;
+  margin: 0.421875rem;
+  float: left;
+}
+.mains_1_right .mains_1_right_down figure figcation {
+  float: left;
+  position: relative;
+}
+.mains_1_right .mains_1_right_down figure figcation h2 {
+  height: 0.59375rem;
+  line-height: 0.59375rem;
+  color: #252d35;
+  font-size: 0.359375rem;
+  padding: 0.21875rem 0 0.15625rem 0;
+}
+.mains_1_right .mains_1_right_down figure figcation .bor span {
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.4375rem;
+  color: red;
+  border: 2px solid #ff0000;
+  text-align: center;
+  line-height: 0.4375rem;
+  border-radius: 6px;
+  margin-right: 0.203125rem;
+}
+.mains_1_right .mains_1_right_down figure figcation .bor a {
+  width: 1.5rem;
+  height: 0.4375rem;
+  background: #ff0000;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 0.4375rem;
+  border-radius: 5px;
+}
+.mains_1_right .mains_1_right_down figure figcation .gramm {
+  color: #999999;
+  padding: 0.15625rem 0 0.125rem 0;
+}
+.mains_1_right .mains_1_right_down figure figcation .price {
+  color: #ff3800;
+}
+.mains_1_right .mains_1_right_down figure figcation .price span {
+  color: #999999;
+  text-decoration: line-through;
+}
+.mains_1_right .mains_1_right_down figure figcation .sm_num {
+  display: inline-block;
+  position: absolute;
+  top: -1rem;
+  font-size: 0.4rem;
+  left: 3rem;
+  display: none;
+}
+.mains_1_right .mains_1_right_down figure figcation .sm_add {
+  width: 0.359375rem;
+  height: 0.359375rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  padding: 0.234375rem;
+  position: absolute;
+  top: -1.60625rem;
+  left: 3.125rem;
+}
+.mains_1_right .mains_1_right_down figure figcation .sm_jian {
+  width: 0.359375rem;
+  height: 0.078125rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 50%;
+  padding: 0.390625rem 0.234375rem;
+  position: absolute;
+  top: -1.60625rem;
+  left: 1.625rem;
+  display: none;
+}
